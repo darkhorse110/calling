@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    <listeners>
+        <listener class-name="actions.commons.ReportListener"/>
+    </listeners>
+    <test name="Run on CHROME browser">
+        <parameter name="browser" value="headless_chrome"/>
+        <classes>
+<!--            <class name="testcases.ChangeAvatar"/>-->
+<!--            <class name="testcases.ChangePassword"/>-->
+<!--            <class name="testcases.EditProfile"/>-->
+<!--            <class name="testcases.GroupManagement"/>-->
+<!--            <class name="testcases.InviteMemberByUrl"/>-->
+<!--            <class name="testcases.InviteMemberByMail"/>-->
+<!--            <class name="testcases.InviteMemberPage"/>-->
+<!--            <class name="testcases.MemberManagement"/>-->
+<!--            <class name="testcases.RequestPassword"/>-->
+<!--            <class name="testcases.RequestWorkSpace"/>-->
+<!--            <class name="testcases.SelectProfile"/>-->
+<!--            <class name="testcases.SelectWorkSpace"/>-->
+<!--            <class name="testcases.SignIn"/>-->
+<!--            <class name="testcases.TabNotification"/>-->
+<!--            <class name="testcases.Questionnaire"/>-->
+<!--            <class name="testcases.TopPage"/>-->
+<!--            <class name="testcases.WorkSpaceManagement"/>-->
+<!--            <class name="testcases.UserUsage"/>-->
+<!--            <class name="testcases.CallingSalesTop"/>-->
+<!--            <class name="testcases.CallingSalesCallScreen"/>-->
+<!--            <class name="testcases.Platform_DocumentPagePreview"/>-->
+<!--            <class name="testcases.PlatformRecord"/>-->
+<!--            <class name="testcases.PlatformDocumentPage"/>-->
+            <class name="testcases.Chatbot"/>
+        </classes>
+    </test>
+</suite>

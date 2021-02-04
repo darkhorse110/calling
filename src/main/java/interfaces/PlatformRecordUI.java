@@ -1,0 +1,47 @@
+package interfaces;
+
+public class PlatformRecordUI {
+    public static String bntPlatFormRecord = "//span[@translate='record_data']";
+    public static String lblTitleRecord = "//div[@class='calling-record__infor']//h3[contains(text(),'%s')]";
+    public static String lblTitleRecordSearch = "(//div[@class='calling-record__infor']//h3[contains(text(),'%s')])[1]";
+    public static String bntRecordItem = "//div[contains(@class,'recording-page__record-item')][div/h3[contains(text(),'%s')]]//div[@class='calling-record__thumbnail-inner']//span";
+    public static String bntRecordItemShare = "//div[contains(@class,'user-share-records__item')][div/h3[contains(text(),'%s')]]//div[@class='calling-record__thumbnail-inner']";
+    public static String bntLoading = "//loading-animation-component";
+    public static String bntPlayVideo ="//span[text()='Play Video']";
+    public static String videoPlay = "//div[contains(@class,'vjs-playing')]";
+    public static String bntEditTitle = "//i[contains(@class,'calling-icon-edit')]";
+    public static String txtTitleRecord = "//div[@class='detail-record-modal__infor']//input[@type='text']";
+    public static String bntSaveTitleRecord = "//div[@class='detail-record-modal__infor']//button[@translate='confirm']";
+    public static String bntCloseRecordPopup = "//i[@class='calling-icon calling-icon-close']";
+    public static String lblOwnerRecord = "//div[contains(@class,'recording-page__record-item')][div/h3[contains(text(),'%s')]]//span[contains(@class,'calling-record__user-name')]";
+    public static String lblOwnerRecordShare = "//div[contains(@class,'detail-record-modal__user-name')]";
+    public static String lblRoomIDRecord = "//div[contains(@class,'recording-page__record-item')][div/h3[contains(text(),'%s')]]//p[contains(@class,'calling-record__room-name')]";
+    public static String getLblRoomIDRecordShare = "//div[contains(@class,'detail-record-modal__room-value')]";
+    public static String getTextShareRecord ="//div[@translate='public']/..//div[@class='switch-button__slider']";
+    public static String bntShareRecord ="//div[@translate='public']/..//label";
+    public static String popupSharePerson = "//span[@translate='share_record_data2']";
+    public static String bntCloseSharePerson = "//span[@class='modal-modify__close-button']";
+    public static String bntShareVideo = "//button[not(contains(@class,'cant-share'))]//span[@translate='share2']";
+    public static String lblTitleRecordShareLink = "//div[contains(@class,'user-share-records__one-record')]//h4[contains(text(),'%s')]";
+    public static String bntDelete1Record = "//span[@translate='delete']";
+    public static String bntConfirmDelete1Record = "//button[@translate='yes']";
+    public static String bntDownload1Record = "//span[@translate='download']";
+    public static String txtSearchByName = "//input[@name='name']";
+    public static String txtSearchByFrom = "//datetime-picker-component[@type='from']//input";
+    public static String bntBasicSharingSettings ="//span[@translate='basic_sharing_settings']";
+    public static String cbbFirstUserChecked = "(//div[contains(@class,'user-with-checkbox')]//input)[1]";
+    public static String cbbUserChecked = "//div[contains(@class,'user-with-checkbox')][span[text()='%s']]//input";
+    public static String chbUserShare = "(//div[contains(@class,'user-with-checkbox')][span[text()='%s']]//div)[1]";
+    public static String chbFirstUserShare = "(//div[contains(@class,'user-with-checkbox')]//div)[1]";
+    public static String bntSaveBasicSharingSettings ="//span[@translate='to_setup']";
+    public static String txtMessageSaveSuccess = "//div[@class='toast-message' and contains(text(),'%s')]";
+    public static String chbSelectAll = "//div[contains(@class,'recording-page__selecting')]//div[@class='checkbox__cell']";
+    public static String bntActionWithManyRecord = "//span[@translate='manipulate_record']";
+    public static String bntShareWithManyRecord = "//span[@translate='share_record_data']";
+    public static String bntShareRecordForUser ="//span[@translate='share']";
+    public static String bntShareURLTab ="//div[contains(@class,'custom-tabs')]//li[2]";
+    public static String bntShowURL ="//button[@translate='generate_share_record_url']";
+    public static String bntCopyURL = "//span[@translate='copy_url_first']";
+    public static String txtURLShare = "//div[@class='share-records-modal__invite-token-wrapper']/textarea";
+    public static String lblTitleRecordShareManyRecord = "//div[contains(@class,'user-share-records__list')]//h3[contains(text(),'%s')]";
+}
